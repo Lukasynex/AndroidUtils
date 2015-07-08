@@ -8,17 +8,16 @@ utils
 #how to migrate maven to gradle files ? 
 here's example:
 
-maven:Id>org.scribe</groupId>
+#maven:
+
+Id>org.scribe</groupId>
   <artifactId>scribe</artifactId>
   <version>1.3.6</version> // please use always the latest version
 </dependency>
 
-gradle:
+#gradle:
 
 build.gradle(project)
-
-
-build.gradle (module)
 
 buildscript {
     repositories {
@@ -29,6 +28,8 @@ buildscript {
         classpath 'com.android.tools.build:gradle:1.2.3'
    }
 }
+
+build.gradle(module)
 
 
 allprojects {
