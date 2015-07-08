@@ -14,10 +14,13 @@ maven:Id>org.scribe</groupId>
 </dependency>
 
 gradle:
+
 build.gradle(project)
 
+
 build.gradle (module)
-'''buildscript {
+
+buildscript {
     repositories {
         mavenCentral()
         jcenter()
@@ -25,7 +28,8 @@ build.gradle (module)
     dependencies {
         classpath 'com.android.tools.build:gradle:1.2.3'
    }
-}''''
+}
+
 
 allprojects {
     repositories {
