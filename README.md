@@ -10,10 +10,11 @@ here's example:
 
 #maven:
 
-Id>org.scribe</groupId>
-  <artifactId>scribe</artifactId>
-  <version>1.3.6</version> // please use always the latest version
-</dependency>
+< dependency >
+  < groupId > org.scribe < / groupId >
+  < artifactId > scribe< / artifactId >
+  < version>1.3.6< / version > 
+< / dependency >
 
 #gradle:
 
